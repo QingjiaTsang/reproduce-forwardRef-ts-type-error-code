@@ -36,3 +36,8 @@ next-env.d.ts
 
 # pnpm temperory files
 /UsersphantecAppDataLocalpnpm
+.idea/.gitignore
+.idea/modules.xml
+.idea/vcs.xml
+.idea/wavv-nextjs13-master.iml
+.idea/inspectionProfiles/Project_Default.xml
