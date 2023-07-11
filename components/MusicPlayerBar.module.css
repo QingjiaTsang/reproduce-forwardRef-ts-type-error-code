@@ -1,0 +1,18 @@
+.gradientWave {
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  margin-left: 11.3%;
+  background: linear-gradient(180deg, #ffc00f 0%, #ff5c0a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.currentTime {
+  width: 32px;
+  height: 20px;
+  margin-left: 1.56%;
+  font-size: 16px;
+  font-family: Inter-Regular, Inter;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 24px;
+}

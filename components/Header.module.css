@@ -1,0 +1,9 @@
+.wavvText {
+  width: 65px;
+  height: 29px;
+  font-size: 24px;
+  font-family: Inter-Bold, Inter;
+  font-weight: bold;
+  color: #ffffff;
+  -webkit-background-clip: text;
+}
