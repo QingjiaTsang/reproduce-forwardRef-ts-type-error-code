@@ -1,7 +1,10 @@
-import { useState, useEffect, RefObject } from 'react';
+import { useState, useEffect, RefObject, MutableRefObject } from 'react';
 import WaveSurfer, { WaveSurferOptions } from 'wavesurfer.js';
 
-const useWavesurfer = (containerRef: RefObject<HTMLDivElement>, options: WaveSurferOptions) => {
+const useWavesurfer = (
+  containerRef: MutableRefObject<HTMLDivElement | null>,
+  options: WaveSurferOptions
+) => {
   const [wavesurfer, setWavesurfer] = useState<WaveSurfer | null>(null);
 
   useEffect(() => {
